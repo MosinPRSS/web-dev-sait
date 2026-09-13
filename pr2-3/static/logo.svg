@@ -1,0 +1,92 @@
+<svg width="444.224" xmlns="http://www.w3.org/2000/svg" height="120" id="screenshot-403bc54c-67b2-801c-8008-98d745c9d3c9" viewBox="0 0 444.224 120" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" version="1.1"><style>/* cyrillic-ext */
+@font-face {
+  font-family: 'IBM Plex Serif';
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/ibmplexserif/v20/jizAREVNn1dOx-zrZ2X3pZvkTi2k_iI5q1vxiQ.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'IBM Plex Serif';
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/ibmplexserif/v20/jizAREVNn1dOx-zrZ2X3pZvkTi2k_iIwq1vxiQ.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'IBM Plex Serif';
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/ibmplexserif/v20/jizAREVNn1dOx-zrZ2X3pZvkTi2k_iI7q1vxiQ.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'IBM Plex Serif';
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/ibmplexserif/v20/jizAREVNn1dOx-zrZ2X3pZvkTi2k_iI6q1vxiQ.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'IBM Plex Serif';
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/ibmplexserif/v20/jizAREVNn1dOx-zrZ2X3pZvkTi2k_iI0q1s.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'IBM Plex Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/ibmplexserif/v20/jizDREVNn1dOx-zrZ2X3pZvkTiUS2zcLig.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'IBM Plex Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/ibmplexserif/v20/jizDREVNn1dOx-zrZ2X3pZvkTiUb2zcLig.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'IBM Plex Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/ibmplexserif/v20/jizDREVNn1dOx-zrZ2X3pZvkTiUQ2zcLig.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'IBM Plex Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/ibmplexserif/v20/jizDREVNn1dOx-zrZ2X3pZvkTiUR2zcLig.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'IBM Plex Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/ibmplexserif/v20/jizDREVNn1dOx-zrZ2X3pZvkTiUf2zc.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style><g id="shape-403bc54c-67b2-801c-8008-98d745c9d3c9"><defs><clipPath id="frame-clip-403bc54c-67b2-801c-8008-98d745c9d3c9-render-1" class="frame-clip frame-clip-def"><rect rx="0" ry="0" x="0" y="0" width="444.22360248447217" height="120" transform="matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)"/></clipPath></defs><g class="frame-container-wrapper"><g class="frame-container-blur"><g class="frame-container-shadows"><g clip-path="url(#frame-clip-403bc54c-67b2-801c-8008-98d745c9d3c9-render-1)" fill="none"><g class="fills" id="fills-403bc54c-67b2-801c-8008-98d745c9d3c9"><rect rx="0" ry="0" x="0" y="0" width="444.22360248447217" height="120" transform="matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)" class="frame-background"/></g><g class="frame-children"><g id="shape-403bc54c-67b2-801c-8008-98c5a256dba4"><g transform="matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)" class="text-container" x="17.111801242236197" y="3.3891679011840097" width="410" height="49" rx="0" ry="0"><defs><pattern patternUnits="objectBoundingBox" width="409.21875" height="52" id="fill-0-render-2-0"><g><rect width="409.21875" height="52" style="fill: rgb(21, 89, 100); fill-opacity: 1;"/></g></pattern></defs><g class="fills" id="fills-403bc54c-67b2-801c-8008-98c5a256dba4"><text x="17.502426242236197" y="53.71729290118401" dominant-baseline="ideographic" textLength="409.21875" lengthAdjust="spacingAndGlyphs" style="text-transform: none; font-family: &quot;IBM Plex Serif&quot;; letter-spacing: normal; font-style: normal; font-weight: 700; white-space: pre; font-size: 40.3014px; text-decoration: none; direction: ltr; fill: rgb(21, 89, 100); fill-opacity: 1;">Материал Экспресс</text></g></g></g><g id="shape-403bc54c-67b2-801c-8008-98c5a256dba5"><g class="fills" id="fills-403bc54c-67b2-801c-8008-98c5a256dba5"><rect rx="0" ry="0" x="11.606946873303741" y="59.16750370355203" transform="matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)" width="421.00970873786514" height="2.391389098521813" style="fill: rgb(21, 89, 100); fill-opacity: 1;"/></g></g><g id="shape-403bc54c-67b2-801c-8008-98c5a256dba6"><g transform="matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)" class="text-container" x="5.611801242236197" y="68.33722860444186" width="433" height="56.05193929674169" rx="0" ry="0"><defs><pattern patternUnits="objectBoundingBox" width="402.328125" height="57.625" id="fill-0-render-4-0"><g><rect width="402.328125" height="57.625" style="fill: rgb(21, 89, 100); fill-opacity: 1;"/></g></pattern><pattern patternUnits="objectBoundingBox" width="402.328125" height="57.625" id="fill-1-render-4-0"><g><rect width="402.328125" height="57.625" style="fill: rgb(21, 89, 100); fill-opacity: 1;"/></g></pattern></defs><g class="fills" id="fills-403bc54c-67b2-801c-8008-98c5a256dba6"><text x="20.939926242236197" y="96.72785360444186" dominant-baseline="ideographic" textLength="402.328125" lengthAdjust="spacingAndGlyphs" style="text-transform: none; font-family: &quot;IBM Plex Serif&quot;; letter-spacing: normal; font-style: normal; font-weight: 400; white-space: pre; font-size: 23.0294px; text-decoration: none; direction: ltr; fill: rgb(21, 89, 100); fill-opacity: 1;">Стройматериалы и инструменты с </text></g><defs><pattern patternUnits="objectBoundingBox" width="402.328125" height="57.625" id="fill-0-render-4-1"><g><rect width="402.328125" height="57.625" style="fill: rgb(21, 89, 100); fill-opacity: 1;"/></g></pattern><pattern patternUnits="objectBoundingBox" width="402.328125" height="57.625" id="fill-1-render-4-1"><g><rect width="402.328125" height="57.625" style="fill: rgb(21, 89, 100); fill-opacity: 1;"/></g></pattern></defs><g class="fills" id="fills-403bc54c-67b2-801c-8008-98c5a256dba6"><text x="74.5493012422362" y="124.35285360444186" dominant-baseline="ideographic" textLength="295.109375" lengthAdjust="spacingAndGlyphs" style="text-transform: none; font-family: &quot;IBM Plex Serif&quot;; letter-spacing: normal; font-style: normal; font-weight: 400; white-space: pre; font-size: 23.0294px; text-decoration: none; direction: ltr; fill: rgb(21, 89, 100); fill-opacity: 1;">доставкой по всей России</text></g></g></g></g></g></g></g></g></g></svg>
