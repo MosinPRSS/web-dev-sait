@@ -1,0 +1,12 @@
+{% extends './base.html' %}
+
+{% block title %}Материал Экспресс - Главная{% endblock %}
+
+{% block addlinks %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/card.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/titlePage.css') }}">
+{% endblock %}
+
+{% block content %} 
+    {% include '../shop/titlePage.html' %}
+{% endblock %}

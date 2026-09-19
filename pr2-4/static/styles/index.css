@@ -15,21 +15,20 @@ body {
     width: 100%;
     background: #fff;
     border-bottom: 1px solid #00000020;
+
+    justify-content: space-between;
 }
 
 .header-inner {
     display: grid;
 
-    grid-template-columns: minmax(220px, 1fr)
-                           minmax(280px, 305px)
-                           auto;
+    grid-template-columns: 1fr auto 1fr;
 
-    grid-template-rows: 60px 40px;
+    grid-template-rows: 40px 40px;
 
     column-gap: 30px;
 
-    padding: 10px 26px 0;
-
+    padding: 0.5em 1em;
     box-sizing: border-box;
 }
 
@@ -39,9 +38,9 @@ body {
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 
-    padding-bottom: 5px;
+    padding-left: 18px;
 }
 
 .logo-link {
@@ -81,12 +80,22 @@ body {
     line-height: 14px;
 }
 
-.search-section {
+.nav-center-section {
     grid-column: 2;
-    grid-row: 1;
+    grid-row: 1 / 3;
 
     display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+
+    gap: 4px;
+}
+
+.search-section {
+    width: 690px;
+    padding-bottom: 10px;
+    max-width: 50vw;
 }
 
 .search-box {
@@ -120,10 +129,11 @@ body {
 
 .icons-section {
     grid-column: 3;
-    grid-row: 1;
+    grid-row: 1 / 3;
 
     display: flex;
     align-items: center;
+    justify-content: flex-end;
 
     gap: 10px;
 }
@@ -135,10 +145,10 @@ body {
     padding: 0;
 
     border: none;
-    border-radius: 50%;
+    border-radius: 16px;
 
-    background: #dcebed;
-    color: #246b78;
+    background: #dae6e8;
+    color: #155964;
 
     display: flex;
     align-items: center;
@@ -149,25 +159,74 @@ body {
 
 
 .nav-menu {
-    grid-column: 2 / 4;
-    grid-row: 2;
-
     display: flex;
     align-items: center;
+    justify-content: center;
 
-    gap: clamp(12px, 2vw, 24px);
+    gap: clamp(12px, 1.5vw, 24px);
 
-    min-width: 0;
+    width: max-content;
 }
 
 .nav-link {
-    color: #28616d;
+    color: #155964;
 
     text-decoration: none;
     white-space: nowrap;
 
     font-family: Georgia, "Times New Roman", serif;
-    font-size: 15px;
+    font-size: 16px;
 }
 /* end navigation */
+/* -------------- */
+
+/* main */
+/* -------------- */   
+
+.main {
+    height: 50%;
+}
+
+/* footer */
+/* -------------- */
+.footer {
+    width: 100%;
+    border-top: 2px solid #155964;
+
+    box-sizing: border-box;
+}
+
+.footer-inner {
+    display: grid;
+
+    grid-auto-flow: column;
+    gap: 10px;
+
+    padding: 1em 1em 0.5em;
+}
+
+.footer-text-block {
+    display: flex;
+    flex-direction: column;
+
+    gap: 24px;
+
+    min-width: 0;
+}
+
+.footer-text {
+    cursor: pointer;
+
+    color: #155964;
+
+    text-decoration: none;
+    white-space: nowrap;
+
+    text-align: center;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+}
+
+/* end footer */
 /* -------------- */

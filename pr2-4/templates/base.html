@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 
 <head>
-    <title>{% block title %}My Website{% endblock %}</title>
+    <title>{% block title %}{% endblock %}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles/index.css') }}">
+    <meta charset="utf-8" />
+
+    <!-- for another css files -->
+    {% block addlinks %}{% endblock %}
 </head>
+<body>
     <!-- navigation part -->
     <header class="header">
         {% include './nav.html' %}
     </header>
     <!-- main part -->
-    <main>
+    <main class="main">
         {% block content %} {% endblock %}  
     </main>
     <!-- footer part -->
-    <footer>
-        <!---->
+    <footer class="footer">
+        {% include './footer.html' %}
     </footer>
-<body>
-  
 </body>
