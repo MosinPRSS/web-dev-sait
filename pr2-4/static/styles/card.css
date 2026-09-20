@@ -1,25 +1,92 @@
 .card {
-    background-color: #dae6e8;
+    display: grid;
+
+    
+    background: #dae6e8;
 
     border-radius: 12px;
 
-    padding: 10px;
+    padding: 8px;
 
-    box-shadow: #00000020;
+    box-shadow: 5px 5px 5px #00000020;
+}
+
+.card:hover {
+    background: #dae6e8d4;
 }
 
 .card-inner {
+    display: grid;
 
+    gap: 12px;
+
+    justify-content: space-between;
 }
 
 .image-section {
-
-}
-
-.title-section {
-
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 .title-text {
-    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    text-align: justify;
+
+    font-size: 18px;
+
+    color: #175968;
 }
+
+.price-section {
+    padding: 1em 0;
+}
+
+.price-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #24292e;
+}
+
+.cart-button-section {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+
+    background: #155964;
+
+    border-radius: 14px;
+}
+
+.delivery-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: #24292e;
+}
+.bookmark-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: #24292e;
+}
+
+.bookmark-text:hover {
+    text-decoration: underline;
+}
+
+.cart-button-section:hover {
+    background: #155964ad;
+}
+
+.cart-button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #dae6e8;
+
+    background: none;
+    border: none;
+}
+

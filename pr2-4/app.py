@@ -19,6 +19,11 @@ def category(name: str):
 def login(): 
     ... # not necessary for this work
 
+@app.errorhandler(404)
+def handle_not_found(e):
+    return render_template('./pages/404.html', title_text="404 - Не найдено :(")
 
+
+app.register_error_handler(404, handle_not_found)
 if __name__ == "__main__":
     app.run(debug=True)
