@@ -1,6 +1,7 @@
 {% extends './base.html' %}
 
-{% block title %}Материал Экспресс - Главная{% endblock %}
+<!-- в App.py будет определен титле_текст -->
+{% block title %}Материал Экспресс - {{ title_text }}{% endblock %}
 
 {% block addlinks %}
     <link rel="stylesheet" href="{{ url_for('static', filename='styles/card.css') }}">
@@ -8,7 +9,7 @@
 {% endblock %}
 
 {% block content %} 
-    {% with title_text = "Рекомендуем" %}
+    {% with title_text = title_text %}
         <!-- Учитывается от родительской папки... -->
         {% include './shop/titlePage.html' %}
     {% endwith %}

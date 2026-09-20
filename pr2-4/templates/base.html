@@ -4,7 +4,7 @@
     <title>{% block title %}{% endblock %}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles/index.css') }}">
     <meta charset="utf-8" />
-
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/applogo.png') }}">
     <!-- for another css files -->
     {% block addlinks %}{% endblock %}
 </head>

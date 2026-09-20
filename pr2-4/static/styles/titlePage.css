@@ -1,4 +1,18 @@
 .main-title {
     width: 100%;
-    
+
+    padding-left: 10em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 0;
+}
+
+.main-title-text {
+    color: #155964;
+
+    font-size: 36px;
+    font-weight: 700;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
