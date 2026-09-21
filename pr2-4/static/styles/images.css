@@ -15,22 +15,21 @@
     gap: 16px;
 
     width: 100%;
+    height: 100%;
 }
 
 .little-image {
+    flex: 1 1 0;      /* было height: 70px */
+    min-height: 0;
     width: 100%;
-    height: 70px;
 
     display: flex;
     align-items: center;
     justify-content: center;
 
     background: #fff;
-
     border-radius: 8px;
-
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.35);
-
     overflow: hidden;
 }
 
@@ -46,19 +45,17 @@
 }
 
 .big-image-section {
-    width: 512px;
-    height: 512px;
+    width: 100%;          /* было 512px */
+    aspect-ratio: 1 / 1;  /* квадрат по ширине колонки */
+    height: auto;
 
     display: flex;
     align-items: center;
     justify-content: center;
 
     background: #fff;
-
     border-radius: 8px;
-
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.35);
-
     overflow: hidden;
 }
 

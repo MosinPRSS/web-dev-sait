@@ -212,16 +212,18 @@ body {
 .product-content {
     display: grid;
     grid-template-columns:
-        100px
-        minmax(0, 340px)
-        195px;
+        130px
+        minmax(0, 520px)
+        260px;
 
     gap: 20px;
 
-    align-items: start;
+    align-items: stretch;
 
     width: fit-content;
     max-width: 100%;
+
+    margin-inline: auto;
 }
 
 .card-content {
