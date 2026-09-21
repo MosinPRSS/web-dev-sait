@@ -4,6 +4,9 @@
 
 {% block addlinks %}
     <link rel="stylesheet" href="{{ url_for('static', filename='styles/titlePage.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/images.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/card.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/checkout.css') }}">
 {% endblock %}
 
 {% block content %} 
@@ -12,7 +15,10 @@
         {% include './shop/titlePage.html' %}
     {% endwith %}
     <div class="main-content">
-        
+        <div class="product-content">
+            {% include './product/preview.html' %}
+            {% include './product/checkout.html' %}
+        </div>
     </div>
     {% with title_text = "Характеристики" %}
         <!-- Учитывается от родительской папки... -->

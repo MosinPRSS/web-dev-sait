@@ -209,6 +209,21 @@ body {
     padding: 1em 10em;
 }
 
+.product-content {
+    display: grid;
+    grid-template-columns:
+        100px
+        minmax(0, 340px)
+        195px;
+
+    gap: 20px;
+
+    align-items: start;
+
+    width: fit-content;
+    max-width: 100%;
+}
+
 .card-content {
     display: grid;
 

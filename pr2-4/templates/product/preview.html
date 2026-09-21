@@ -1,30 +1,27 @@
 <div class="image-preview-section">
+
     <div class="little-image-section">
-        <img 
-        src={{ url_for('static', filename='images/pila.png') }}
-        alt="Превью"
-        class="little-image-preview">
-
-        <img 
-        src={{ url_for('static', filename='images/pila.png') }}
-        alt="Превью"
-        class="little-image-preview">
-
-        <img 
-        src={{ url_for('static', filename='images/pila.png') }}
-        alt="Превью"
-        class="little-image-preview">
-
-        <img 
-        src={{ url_for('static', filename='images/pila.png') }}
-        alt="Превью"
-        class="little-image-preview">
+        <div class="little-image">
+            <img src="{{ url_for('static', filename='images/pila.png') }}"
+                 alt="Превью товара" class="little-image-preview">
+        </div>
+        <div class="little-image">
+            <img src="{{ url_for('static', filename='images/pila.png') }}"
+                 alt="Превью товара" class="little-image-preview">
+        </div>
+        <div class="little-image">
+            <img src="{{ url_for('static', filename='images/pila.png') }}"
+                 alt="Превью товара" class="little-image-preview">
+        </div>
+        <div class="little-image">
+            <img src="{{ url_for('static', filename='images/pila.png') }}"
+                 alt="Превью товара" class="little-image-preview">
+        </div>
     </div>
 
     <div class="big-image-section">
-        <img 
-        src={{ url_for('static', filename='images/pila.png') }}
-        alt="Товар"
-        class="big-image-preview">
+        <img src="{{ url_for('static', filename='images/pila.png') }}"
+             alt="Товар" class="big-image-preview">
     </div>
+
 </div>
