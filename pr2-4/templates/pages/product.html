@@ -1,0 +1,22 @@
+{% extends './base.html' %}
+
+{% block title %}Материал Экспресс - Главная{% endblock %}
+
+{% block addlinks %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/titlePage.css') }}">
+{% endblock %}
+
+{% block content %} 
+    {% with title_text = title_text %}
+        <!-- Учитывается от родительской папки... -->
+        {% include './shop/titlePage.html' %}
+    {% endwith %}
+    <div class="main-content">
+        
+    </div>
+    {% with title_text = "Характеристики" %}
+        <!-- Учитывается от родительской папки... -->
+        {% include './shop/titlePage.html' %}
+    {% endwith %}
+    
+{% endblock %}

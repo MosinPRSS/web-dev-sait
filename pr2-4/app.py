@@ -10,10 +10,13 @@ def home():
 def cart():
     ...
 
+@app.route('/product/<name>')
+def product(name: str):
+    return render_template('./pages/product.html', title_text=name)
+
 @app.route('/category/<name>')
 def category(name: str): 
-    title_text = name
-    return render_template('./pages/category.html', title_text=title_text)
+    return render_template('./pages/category.html', title_text=name)
 
 @app.route('/login')
 def login(): 

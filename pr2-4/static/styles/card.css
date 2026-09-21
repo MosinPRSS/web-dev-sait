@@ -9,6 +9,8 @@
     padding: 8px;
 
     box-shadow: 5px 5px 5px #00000020;
+
+    cursor: pointer;
 }
 
 .card:hover {
