@@ -2,7 +2,6 @@ import Card from './Card';
 
 export default function CardGrid({ products = [] }) {
     return (
-        <div className="main-content">
             <div className="card-content">
                 {products.map((product) => (
                     <Card
@@ -14,6 +13,5 @@ export default function CardGrid({ products = [] }) {
                     />
                 ))}
             </div>
-        </div>
     );
 }

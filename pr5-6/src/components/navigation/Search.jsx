@@ -1,4 +1,5 @@
 import '../../styles/navigation/Search.css';
+import getRandomName from '../../utils/randomNames';
 
 export default function SearchBox() {
     return (
@@ -18,7 +19,7 @@ export default function SearchBox() {
 
             <input
                 type="text"
-                placeholder="Поиск..."
+                placeholder={getRandomName()}
                 className="search-input"
             />
         </div>

@@ -4,11 +4,12 @@ import '../styles/Card.css';
 export default function Card({ title, price, image, to }) {
     return (
         <div className="card">
-            <Link to={to}>
                 <div className="card-inner">
+                <Link to={to}>
                     <div className="image-section">
                         <img src={image} alt="Товар" className="image" />
                     </div>
+                 </Link>
 
                     <div className="title-section">
                         <span className="title-text">{title}</span>
@@ -53,7 +54,6 @@ export default function Card({ title, price, image, to }) {
                         </button>
                     </div>
                 </div>
-            </Link>
         </div>
     );
 }
