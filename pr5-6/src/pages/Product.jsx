@@ -3,6 +3,7 @@ import TitlePage from '../components/TitlePage';
 import ProductPreview from '../components/product/ProductPreview';
 import ProductCheckout from '../components/product/ProductCheckout';
 import products from '../data/products';
+import ProductSpecs from '../components/product/ProductSpecs';
 
 export default function Product() {
     const { name } = useParams();
@@ -18,6 +19,7 @@ export default function Product() {
                 </div>
             </div>
             <TitlePage title="Характеристики" />
+            <ProductSpecs/>
         </>
     );
 }

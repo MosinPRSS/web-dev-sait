@@ -1,6 +1,10 @@
-import '../../styles/ProductCheckout.css';
+import { useState } from 'react';
+import '../../styles/product/ProductCheckout.css';
 
 export default function ProductCheckout({ price }) {
+    const units = ['ед.', 'ед.', 'ед.'];
+    const [selectedUnitIndex, setSelectedUnitIndex] = useState(1);
+
     return (
         <div className="checkout-section">
             <div className="checkout-inner">
@@ -16,6 +20,7 @@ export default function ProductCheckout({ price }) {
                     </svg>
                     <span className="compare-text">Сравнить</span>
                 </div>
+
                 <div className="bookmark-text-section">
                     <svg
                         className="bookmark-icon"
@@ -28,24 +33,35 @@ export default function ProductCheckout({ price }) {
                     </svg>
                     <span className="bookmark-text">Добавить в избранное</span>
                 </div>
+
                 <div className="filter-section">
                     <div className="filter-text-section">
                         <span className="filter-text">Фильтр</span>
                     </div>
                     <div className="filter-buttons">
-                        <button className="filter-button" type="button">ед.</button>
-                        <button className="filter-button" type="button">ед.</button>
-                        <button className="filter-button" type="button">ед.</button>
+                        {units.map((unit, index) => (
+                            <button
+                                key={index}
+                                type="button"
+                                className={`filter-button ${selectedUnitIndex === index ? 'active' : ''}`}
+                                onClick={() => setSelectedUnitIndex(index)}
+                            >
+                                {unit}
+                            </button>
+                        ))}
                     </div>
                 </div>
+
                 <div className="price-section">
                     <span className="price-text">{price}</span>
                 </div>
+
                 <div className="cart-button-section">
                     <button className="cart-button" type="button">
                         В корзину
                     </button>
                 </div>
+
                 <div className="delivery-text-section">
                     <span className="delivery-text">Доставка завтра</span>
                 </div>

@@ -1,10 +1,8 @@
 .checkout-section {
     box-sizing: border-box;
-
     background: #dae6e8;
     border-radius: 8px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.35);
-
     height: 100%;
 }
 
@@ -12,10 +10,8 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-
     height: 100%;
     padding: 16px 14px;
-
     box-sizing: border-box;
 }
 
@@ -54,34 +50,18 @@
 .filter-text {
     display: block;
     margin-bottom: 6px;
-
     color: #333;
     font-family: Georgia, "Times New Roman", serif;
     font-size: 18px;
 }
 
-.checkout-section .price-text {
-    display: block;
-
-    color: #333;
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 24px;
-    font-weight: 700;
+.checkout-section .checkout-cart-button:hover {
+    background: #155964ad;
 }
+    
 
-.checkout-section .cart-button {
+.cart-button-section {
     width: 100%;
-
-    background: #175968;
-
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 16px;
-
-    cursor: pointer;
-}
-
-.checkout-section .cart-button:hover {
-    background: #246b78;
 }
 
 .delivery-text-section {
@@ -93,4 +73,40 @@
     color: #333;
     font-family: Georgia, "Times New Roman", serif;
     font-size: 14px;
+}
+
+.filter-buttons {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.filter-button {
+    min-width: 44px;
+    height: 32px;
+    padding: 0 10px;
+
+    background-color: #ffffff;
+    border: 1px solid #7c989c;
+    border-radius: 4px;
+
+    color: #175968;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 15px;
+    line-height: 1;
+
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.filter-button:hover:not(.active) {
+    background-color: #f0f5f6;
+    border-color: #175968;
+}
+
+.filter-button.active {
+    background-color: #175968;
+    border-color: #175968;
+    color: #ffffff;
 }

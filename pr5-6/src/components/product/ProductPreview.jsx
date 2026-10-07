@@ -1,4 +1,4 @@
-import '../../styles/ProductPreview.css';
+import '../../styles/product/ProductPreview.css';
 
 export default function ProductPreview({ image }) {
     return (
