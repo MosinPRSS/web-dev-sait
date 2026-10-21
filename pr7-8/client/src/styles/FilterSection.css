@@ -1,0 +1,98 @@
+.filter-wrapper {
+    margin: 20px 0;
+    width: 100%;
+}
+
+.filter-container {
+    background-color: #e0e9e9; /* Светлый серо-голубой фон */
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.filter-grid {
+    display: flex;
+    gap: 40px;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.filter-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-family: Georgia, serif;
+    color: #155964;
+    font-size: 16px;
+}
+
+/* Стилизация чекбокса */
+.custom-checkbox {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #155964;
+    border-radius: 3px;
+    margin-right: 10px;
+    background-color: #fff;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-checkbox:checked {
+    background-color: #155964;
+}
+
+.custom-checkbox:checked::after {
+    content: '✓';
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Стилизация Селекта */
+.select-group {
+    flex-grow: 1;
+}
+
+.custom-select-wrapper {
+    position: relative;
+    width: 200px;
+}
+
+.brand-select {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    font-family: Georgia, serif;
+    color: #155964;
+    appearance: none; /* Убираем стандартную стрелку */
+    cursor: pointer;
+}
+
+.select-arrow {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #155964;
+}
+
+/* Надпись снизу */
+.results-count {
+    margin-top: 15px;
+    font-family: Georgia, serif;
+    color: #155964;
+    font-size: 16px;
+}
